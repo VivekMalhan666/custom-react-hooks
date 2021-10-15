@@ -4,6 +4,7 @@ import ToggleComponent from './useToggle/ToggleComponent';
 import TimeoutComponent from './useTimeOut/TimeoutComponent';
 import DebounceComponent from './useDebounce/DebounceComponent';
 import UpdateEffectComponent from './useUpdateEffect/UpdateEffectComponent';
+import ArrayComponent from './useArray/ArrayComponent';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/updateeffect">
           <UpdateEffectComponent />
+        </Route>
+        <Route path="/usearray">
+          <ArrayComponent />
         </Route>
       </Switch>
     </Router>
