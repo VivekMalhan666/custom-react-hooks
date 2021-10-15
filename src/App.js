@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ToggleComponent from './useToggle/ToggleComponent';
 import TimeoutComponent from './useTimeOut/TimeoutComponent';
+import DebounceComponent from './useDebounce/DebounceComponent';
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
         <Route path="/timeout">
           <TimeoutComponent />
         </Route>
-        <Route path="/"></Route>
+        <Route path="/debounce">
+          <DebounceComponent />
+        </Route>
       </Switch>
     </Router>
   );
