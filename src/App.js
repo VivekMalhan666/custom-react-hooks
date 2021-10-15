@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ToggleComponent from './useToggle/ToggleComponent';
 import TimeoutComponent from './useTimeOut/TimeoutComponent';
 import DebounceComponent from './useDebounce/DebounceComponent';
+import UpdateEffectComponent from './useUpdateEffect/UpdateEffectComponent';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route path="/debounce">
           <DebounceComponent />
+        </Route>
+        <Route path="/updateeffect">
+          <UpdateEffectComponent />
         </Route>
       </Switch>
     </Router>
