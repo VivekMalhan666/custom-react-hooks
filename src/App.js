@@ -5,6 +5,7 @@ import TimeoutComponent from './useTimeOut/TimeoutComponent';
 import DebounceComponent from './useDebounce/DebounceComponent';
 import UpdateEffectComponent from './useUpdateEffect/UpdateEffectComponent';
 import ArrayComponent from './useArray/ArrayComponent';
+import PreviousComponent from './usePrevious/PreviousComponent';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/usearray">
           <ArrayComponent />
+        </Route>
+        <Route path="/previous">
+          <PreviousComponent />
         </Route>
       </Switch>
     </Router>
