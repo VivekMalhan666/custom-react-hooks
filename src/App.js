@@ -6,6 +6,7 @@ import DebounceComponent from './useDebounce/DebounceComponent';
 import UpdateEffectComponent from './useUpdateEffect/UpdateEffectComponent';
 import ArrayComponent from './useArray/ArrayComponent';
 import PreviousComponent from './usePrevious/PreviousComponent';
+import StateWithHistory from './useStateWithHistory/StateWithHistory';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route path="/previous">
           <PreviousComponent />
+        </Route>
+        <Route path="/statewithhistory">
+          <StateWithHistory />
         </Route>
       </Switch>
     </Router>
