@@ -8,6 +8,7 @@ import ArrayComponent from './useArray/ArrayComponent';
 import PreviousComponent from './usePrevious/PreviousComponent';
 import StateWithHistory from './useStateWithHistory/StateWithHistory';
 import StorageComponent from './useStorage/StorageComponent';
+import AsyncComponent from './useAsync/AsyncComponent';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
         </Route>
         <Route path="/usestorage">
           <StorageComponent />
+        </Route>
+        <Route path="/useasync">
+          <AsyncComponent />
         </Route>
       </Switch>
     </Router>
