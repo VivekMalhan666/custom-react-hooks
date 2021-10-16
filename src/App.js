@@ -9,6 +9,7 @@ import PreviousComponent from './usePrevious/PreviousComponent';
 import StateWithHistory from './useStateWithHistory/StateWithHistory';
 import StorageComponent from './useStorage/StorageComponent';
 import AsyncComponent from './useAsync/AsyncComponent';
+import FetchComponent from './useFetch/FetchComponent';
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
         </Route>
         <Route path="/useasync">
           <AsyncComponent />
+        </Route>
+        <Route>
+          <FetchComponent />
         </Route>
       </Switch>
     </Router>
