@@ -7,6 +7,7 @@ import UpdateEffectComponent from './useUpdateEffect/UpdateEffectComponent';
 import ArrayComponent from './useArray/ArrayComponent';
 import PreviousComponent from './usePrevious/PreviousComponent';
 import StateWithHistory from './useStateWithHistory/StateWithHistory';
+import StorageComponent from './useStorage/StorageComponent';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
         </Route>
         <Route path="/statewithhistory">
           <StateWithHistory />
+        </Route>
+        <Route path="/usestorage">
+          <StorageComponent />
         </Route>
       </Switch>
     </Router>
