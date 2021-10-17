@@ -19,6 +19,7 @@ import MediaQueryComponent from './useMediaQuery/MediaQueryComponent';
 import GeoLocationComponent from './useGeoLocation/GeoLocationComponent';
 import StateWithValidationComponent from './useStateWithValidation/StateWithValidationComponent';
 import SizeComponent from './useSize/SizeComponent';
+import ClickOutsideComponent from './useClickOutside/ClickOutsideComponent';
 
 function App() {
   return (
@@ -80,6 +81,9 @@ function App() {
         </Route>
         <Route path="/usesize">
           <SizeComponent />
+        </Route>
+        <Route path="/useoutside">
+          <ClickOutsideComponent />
         </Route>
       </Switch>
     </Router>
