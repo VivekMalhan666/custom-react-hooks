@@ -12,6 +12,7 @@ import AsyncComponent from './useAsync/AsyncComponent';
 import FetchComponent from './useFetch/FetchComponent';
 import ScriptComponent from './useScript/ScriptComponent';
 import DeepCompareEffectComponent from './useDeepCompareEffect/DeepCompareEffectComponent';
+import EventListenerComponent from './useEventListener/EventListenerComponent';
 
 function App() {
   return (
@@ -52,6 +53,9 @@ function App() {
         </Route>
         <Route path="/usedeepcompare">
           <DeepCompareEffectComponent />
+        </Route>
+        <Route path="/eventlistener">
+          <EventListenerComponent />
         </Route>
       </Switch>
     </Router>
