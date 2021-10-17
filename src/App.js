@@ -14,6 +14,7 @@ import ScriptComponent from './useScript/ScriptComponent';
 import DeepCompareEffectComponent from './useDeepCompareEffect/DeepCompareEffectComponent';
 import EventListenerComponent from './useEventListener/EventListenerComponent';
 import OnScreenComponent from './useOnScreen/OnScreenComponent';
+import WindowSizeComponent from './useWindowSize/WindowSizeComponent';
 
 function App() {
   return (
@@ -60,6 +61,9 @@ function App() {
         </Route>
         <Route path="/onscreen">
           <OnScreenComponent />
+        </Route>
+        <Route path="/windowsize">
+          <WindowSizeComponent />
         </Route>
       </Switch>
     </Router>
