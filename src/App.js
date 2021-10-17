@@ -13,6 +13,7 @@ import FetchComponent from './useFetch/FetchComponent';
 import ScriptComponent from './useScript/ScriptComponent';
 import DeepCompareEffectComponent from './useDeepCompareEffect/DeepCompareEffectComponent';
 import EventListenerComponent from './useEventListener/EventListenerComponent';
+import OnScreenComponent from './useOnScreen/OnScreenComponent';
 
 function App() {
   return (
@@ -56,6 +57,9 @@ function App() {
         </Route>
         <Route path="/eventlistener">
           <EventListenerComponent />
+        </Route>
+        <Route path="/onscreen">
+          <OnScreenComponent />
         </Route>
       </Switch>
     </Router>
