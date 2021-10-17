@@ -18,6 +18,7 @@ import WindowSizeComponent from './useWindowSize/WindowSizeComponent';
 import MediaQueryComponent from './useMediaQuery/MediaQueryComponent';
 import GeoLocationComponent from './useGeoLocation/GeoLocationComponent';
 import StateWithValidationComponent from './useStateWithValidation/StateWithValidationComponent';
+import SizeComponent from './useSize/SizeComponent';
 
 function App() {
   return (
@@ -76,6 +77,9 @@ function App() {
         </Route>
         <Route path="/statewithvalidation">
           <StateWithValidationComponent />
+        </Route>
+        <Route path="/usesize">
+          <SizeComponent />
         </Route>
       </Switch>
     </Router>
