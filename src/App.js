@@ -16,6 +16,7 @@ import EventListenerComponent from './useEventListener/EventListenerComponent';
 import OnScreenComponent from './useOnScreen/OnScreenComponent';
 import WindowSizeComponent from './useWindowSize/WindowSizeComponent';
 import MediaQueryComponent from './useMediaQuery/MediaQueryComponent';
+import GeoLocationComponent from './useGeoLocation/GeoLocationComponent';
 
 function App() {
   return (
@@ -68,6 +69,9 @@ function App() {
         </Route>
         <Route path="/mediaquery">
           <MediaQueryComponent />
+        </Route>
+        <Route path="/geolocation">
+          <GeoLocationComponent />
         </Route>
       </Switch>
     </Router>
