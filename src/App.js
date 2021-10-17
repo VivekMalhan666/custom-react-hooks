@@ -11,6 +11,7 @@ import StorageComponent from './useStorage/StorageComponent';
 import AsyncComponent from './useAsync/AsyncComponent';
 import FetchComponent from './useFetch/FetchComponent';
 import ScriptComponent from './useScript/ScriptComponent';
+import DeepCompareEffectComponent from './useDeepCompareEffect/DeepCompareEffectComponent';
 
 function App() {
   return (
@@ -48,6 +49,9 @@ function App() {
         </Route>
         <Route path="/usescript">
           <ScriptComponent />
+        </Route>
+        <Route path="/usedeepcompare">
+          <DeepCompareEffectComponent />
         </Route>
       </Switch>
     </Router>
