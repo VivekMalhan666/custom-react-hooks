@@ -15,6 +15,7 @@ import DeepCompareEffectComponent from './useDeepCompareEffect/DeepCompareEffect
 import EventListenerComponent from './useEventListener/EventListenerComponent';
 import OnScreenComponent from './useOnScreen/OnScreenComponent';
 import WindowSizeComponent from './useWindowSize/WindowSizeComponent';
+import MediaQueryComponent from './useMediaQuery/MediaQueryComponent';
 
 function App() {
   return (
@@ -64,6 +65,9 @@ function App() {
         </Route>
         <Route path="/windowsize">
           <WindowSizeComponent />
+        </Route>
+        <Route path="/mediaquery">
+          <MediaQueryComponent />
         </Route>
       </Switch>
     </Router>
