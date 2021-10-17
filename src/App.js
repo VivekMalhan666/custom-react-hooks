@@ -17,6 +17,7 @@ import OnScreenComponent from './useOnScreen/OnScreenComponent';
 import WindowSizeComponent from './useWindowSize/WindowSizeComponent';
 import MediaQueryComponent from './useMediaQuery/MediaQueryComponent';
 import GeoLocationComponent from './useGeoLocation/GeoLocationComponent';
+import StateWithValidationComponent from './useStateWithValidation/StateWithValidationComponent';
 
 function App() {
   return (
@@ -72,6 +73,9 @@ function App() {
         </Route>
         <Route path="/geolocation">
           <GeoLocationComponent />
+        </Route>
+        <Route path="/statewithvalidation">
+          <StateWithValidationComponent />
         </Route>
       </Switch>
     </Router>
