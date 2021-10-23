@@ -1,5 +1,6 @@
 import React from 'react';
 import { useRef } from 'react/cjs/react.development';
+import SideBar from '../components/SideBar';
 import useOnScreen from './useOnScreen';
 
 function OnScreenComponent() {
@@ -8,6 +9,7 @@ function OnScreenComponent() {
 
   return (
     <div>
+      <SideBar />
       <h1>Header</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque adipisci
