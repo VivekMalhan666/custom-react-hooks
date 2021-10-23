@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SideBar from '../components/SideBar';
 import useFetch from './useFetch';
 
 function FetchComponent() {
@@ -10,6 +11,7 @@ function FetchComponent() {
   );
   return (
     <div>
+      <SideBar />
       <div>{id}</div>
       <button type="button" onClick={() => setId((currentId) => currentId + 1)}>
         Increment
