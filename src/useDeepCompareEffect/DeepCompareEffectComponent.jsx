@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
+import SideBar from '../components/SideBar';
 import useDeepCompareEffect from './useDeepCompareEffect';
 
 function DeepCompareEffectComponent() {
@@ -21,6 +22,7 @@ function DeepCompareEffectComponent() {
 
   return (
     <div>
+      <SideBar />
       <div>
         useEffect: <span ref={useEffectCountRef}>0</span>
       </div>

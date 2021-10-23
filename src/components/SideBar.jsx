@@ -48,7 +48,7 @@ const sidebarOptions = [
   },
   {
     name: 'useDeepCompare',
-    path: '/usedeepcomare',
+    path: '/usedeepcompare',
   },
   {
     name: 'useEventListener',
