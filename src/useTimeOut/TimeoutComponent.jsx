@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SideBar from '../components/SideBar';
 import useTimeout from './useTimeout';
 
 function TimeoutComponent() {
@@ -7,6 +8,7 @@ function TimeoutComponent() {
 
   return (
     <div>
+      <SideBar />
       <div>{count}</div>
       <button type="button" onClick={() => setCount((c) => c + 1)}>
         Increment
