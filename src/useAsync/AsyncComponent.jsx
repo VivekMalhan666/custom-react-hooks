@@ -1,4 +1,5 @@
 import React from 'react';
+import SideBar from '../components/SideBar';
 import useAsync from './useAsync';
 
 function AsyncComponent() {
@@ -12,6 +13,7 @@ function AsyncComponent() {
   });
   return (
     <div>
+      <SideBar />
       <div>Loading: {loading.toString()}</div>
       <div>{error}</div>
       <div>{value}</div>
