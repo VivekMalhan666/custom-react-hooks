@@ -1,4 +1,5 @@
 import React from 'react';
+import SideBar from '../components/SideBar';
 import { useSessionStorage, useLocalStorage } from './useStorage';
 
 function StorageComponent() {
@@ -6,6 +7,7 @@ function StorageComponent() {
   const [age, setAge, removeAge] = useLocalStorage('age', 22);
   return (
     <div>
+      <SideBar />
       <div>
         {name}-{age}
       </div>
