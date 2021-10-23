@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import SideBar from '../components/SideBar';
 import useClickOutside from './useClickOutside';
 
 function ClickOutsideComponent() {
@@ -11,6 +12,7 @@ function ClickOutsideComponent() {
 
   return (
     <div>
+      <SideBar />
       <button type="button" onClick={() => setOpen(true)}>
         Open
       </button>
