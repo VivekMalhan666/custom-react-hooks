@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SideBar from '../components/SideBar';
 import usePrevious from './usePrevious';
 
 function PreviousComponent() {
@@ -7,6 +8,7 @@ function PreviousComponent() {
   const previousCount = usePrevious(count);
   return (
     <div>
+      <SideBar />
       <div>
         {count}-{previousCount}
       </div>
