@@ -82,10 +82,15 @@ const sidebarOptions = [
 
 function SideBar() {
   const history = useHistory();
+  const activePath = window.location.pathname;
   return (
     <div className="sidebar">
       {sidebarOptions.map(({ name, path }, index) => (
-        <p key={index} onClick={() => history.push(path)}>
+        <p
+          key={index}
+          onClick={() => history.push(path)}
+          className={`${path === activePath ? 'active' : ''}`}
+        >
           {name}
         </p>
       ))}
