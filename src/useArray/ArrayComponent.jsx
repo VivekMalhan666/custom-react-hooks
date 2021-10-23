@@ -1,4 +1,5 @@
 import React from 'react';
+import SideBar from '../components/SideBar';
 import useArray from './useArray';
 
 function ArrayComponent() {
@@ -7,6 +8,7 @@ function ArrayComponent() {
     useArray(exampleArray);
   return (
     <div>
+      <SideBar />
       <div>{array.join(', ')}</div>
       <button type="button" onClick={() => push(7)}>
         Add 7
