@@ -1,4 +1,5 @@
 import React from 'react';
+import SideBar from '../components/SideBar';
 import useScript from './useScript';
 
 function ScriptComponent() {
@@ -7,7 +8,12 @@ function ScriptComponent() {
   );
   if (loading) return <div>Loading</div>;
   if (error) return <div>Error</div>;
-  return <div>{window.$(window).width()}</div>;
+  return (
+    <div>
+      <SideBar />
+      {window.$(window).width()}
+    </div>
+  );
 }
 
 export default ScriptComponent;
