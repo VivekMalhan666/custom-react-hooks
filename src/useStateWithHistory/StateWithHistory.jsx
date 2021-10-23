@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SideBar from '../components/SideBar';
 import useStateWithHistory from './useStateWithHistory';
 
 function StateWithHistory() {
@@ -7,6 +8,7 @@ function StateWithHistory() {
   const [name, setName] = useState('Vivek');
   return (
     <div>
+      <SideBar />
       <div>{count}</div>
       <div>{history.join(', ')}</div>
       <div>Pointer - {pointer}</div>
