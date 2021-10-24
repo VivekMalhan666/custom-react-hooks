@@ -25,6 +25,7 @@ import CopyToClipboardComponent from './useCopyToClipboard/CopyToClipboardCompon
 import CookieComponent from './useCookies/CookieComponent';
 import TranslationComponent from './useTranslations/TranslationComponent';
 import OnlineStatus from './useOnline/OnlineStatus';
+import RenderCountComponent from './useRenderCount/RenderCountComponent';
 
 function App() {
   return (
@@ -104,6 +105,9 @@ function App() {
         </Route>
         <Route path="/online">
           <OnlineStatus />
+        </Route>
+        <Route path="/rendercount">
+          <RenderCountComponent />
         </Route>
       </Switch>
     </Router>

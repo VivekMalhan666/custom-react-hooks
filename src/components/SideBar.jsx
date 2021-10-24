@@ -98,6 +98,10 @@ const sidebarOptions = [
     name: 'useOnlineStatus',
     path: '/online',
   },
+  {
+    name: 'useRenderCount',
+    path: '/rendercount',
+  },
 ];
 
 function SideBar() {
