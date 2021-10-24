@@ -23,6 +23,7 @@ import ClickOutsideComponent from './useClickOutside/ClickOutsideComponent';
 import DarkModeComponent from './useDarkMode/DarkModeComponent';
 import CopyToClipboardComponent from './useCopyToClipboard/CopyToClipboardComponent';
 import CookieComponent from './useCookies/CookieComponent';
+import TranslationComponent from './useTranslations/TranslationComponent';
 
 function App() {
   return (
@@ -96,6 +97,9 @@ function App() {
         </Route>
         <Route path="/usecookies">
           <CookieComponent />
+        </Route>
+        <Route path="/translations">
+          <TranslationComponent />
         </Route>
       </Switch>
     </Router>

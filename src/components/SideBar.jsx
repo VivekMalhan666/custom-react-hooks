@@ -90,6 +90,10 @@ const sidebarOptions = [
     name: 'useCookies',
     path: '/useCookies',
   },
+  {
+    name: 'useTranslations',
+    path: '/translations',
+  },
 ];
 
 function SideBar() {
