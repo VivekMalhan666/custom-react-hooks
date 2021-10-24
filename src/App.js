@@ -20,6 +20,7 @@ import GeoLocationComponent from './useGeoLocation/GeoLocationComponent';
 import StateWithValidationComponent from './useStateWithValidation/StateWithValidationComponent';
 import SizeComponent from './useSize/SizeComponent';
 import ClickOutsideComponent from './useClickOutside/ClickOutsideComponent';
+import DarkModeComponent from './useDarkMode/DarkModeComponent';
 
 function App() {
   return (
@@ -84,6 +85,9 @@ function App() {
         </Route>
         <Route path="/useoutside">
           <ClickOutsideComponent />
+        </Route>
+        <Route path="/usedarkmode">
+          <DarkModeComponent />
         </Route>
       </Switch>
     </Router>

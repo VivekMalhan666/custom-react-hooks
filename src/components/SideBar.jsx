@@ -78,6 +78,10 @@ const sidebarOptions = [
     name: 'useOutside',
     path: '/useoutside',
   },
+  {
+    name: 'useDarkMode',
+    path: '/usedarkmode',
+  },
 ];
 
 function SideBar() {
