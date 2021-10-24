@@ -24,6 +24,7 @@ import DarkModeComponent from './useDarkMode/DarkModeComponent';
 import CopyToClipboardComponent from './useCopyToClipboard/CopyToClipboardComponent';
 import CookieComponent from './useCookies/CookieComponent';
 import TranslationComponent from './useTranslations/TranslationComponent';
+import OnlineStatus from './useOnline/OnlineStatus';
 
 function App() {
   return (
@@ -100,6 +101,9 @@ function App() {
         </Route>
         <Route path="/translations">
           <TranslationComponent />
+        </Route>
+        <Route path="/online">
+          <OnlineStatus />
         </Route>
       </Switch>
     </Router>

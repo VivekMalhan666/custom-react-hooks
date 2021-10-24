@@ -94,6 +94,10 @@ const sidebarOptions = [
     name: 'useTranslations',
     path: '/translations',
   },
+  {
+    name: 'useOnlineStatus',
+    path: '/online',
+  },
 ];
 
 function SideBar() {
