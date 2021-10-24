@@ -82,6 +82,10 @@ const sidebarOptions = [
     name: 'useDarkMode',
     path: '/usedarkmode',
   },
+  {
+    name: 'useCopyToClipboard',
+    path: '/copytoclipboard',
+  },
 ];
 
 function SideBar() {

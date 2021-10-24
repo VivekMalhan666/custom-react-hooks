@@ -21,6 +21,7 @@ import StateWithValidationComponent from './useStateWithValidation/StateWithVali
 import SizeComponent from './useSize/SizeComponent';
 import ClickOutsideComponent from './useClickOutside/ClickOutsideComponent';
 import DarkModeComponent from './useDarkMode/DarkModeComponent';
+import CopyToClipboardComponent from './useCopyToClipboard/CopyToClipboardComponent';
 
 function App() {
   return (
@@ -88,6 +89,9 @@ function App() {
         </Route>
         <Route path="/usedarkmode">
           <DarkModeComponent />
+        </Route>
+        <Route path="/copytoclipboard">
+          <CopyToClipboardComponent />
         </Route>
       </Switch>
     </Router>
