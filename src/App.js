@@ -22,6 +22,7 @@ import SizeComponent from './useSize/SizeComponent';
 import ClickOutsideComponent from './useClickOutside/ClickOutsideComponent';
 import DarkModeComponent from './useDarkMode/DarkModeComponent';
 import CopyToClipboardComponent from './useCopyToClipboard/CopyToClipboardComponent';
+import CookieComponent from './useCookies/CookieComponent';
 
 function App() {
   return (
@@ -92,6 +93,9 @@ function App() {
         </Route>
         <Route path="/copytoclipboard">
           <CopyToClipboardComponent />
+        </Route>
+        <Route path="/usecookies">
+          <CookieComponent />
         </Route>
       </Switch>
     </Router>

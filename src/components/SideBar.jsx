@@ -86,6 +86,10 @@ const sidebarOptions = [
     name: 'useCopyToClipboard',
     path: '/copytoclipboard',
   },
+  {
+    name: 'useCookies',
+    path: '/useCookies',
+  },
 ];
 
 function SideBar() {
